@@ -93,6 +93,16 @@ snapshotter:
     requests:
       memory: 40Mi
       cpu: 20m
+health:
+  repository: csiplugin/csi-health-monitor
+  tag: v1.0
+  resources:
+    limits:
+      memory: 40Mi
+      cpu: 20m
+    requests:
+      memory: 40Mi
+      cpu: 20m
 
 registrar:
   repository: csiplugin/csi-node-driver-registrar

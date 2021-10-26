@@ -168,6 +168,35 @@ spec:
           mountPath: /csi
         - name: server-config
           mountPath: /etc/config
+      - name: csi-health-monitor-controller
+        image: "{{ .Values.health.repository }}:{{ .Values.health.tag }}"
+        resources:
+          limits:
+            memory: "{{ .Values.health.resources.limits.memory }}"
+            cpu: "{{ .Values.health.resources.limits.cpu }}"
+        requests:
+          memory: "{{ .Values.health.resources.requests.memory }}"
+          cpu: "{{ .Values.health.resources.requests.cpu }}"
+        imagePullPolicy: {{ .Values.driver.pullPolicy }}
+        args:
+          - "--v=5"
+          - "--csi-address=$(ADDRESS)"
+        env:
+          - name: ADDRESS
+            value: /csi/csi.sock
+        volumeMounts:
+          - name: socket-dir
+            mountPath: /csi
+          - name: server-config
+            mountPath: /etc/config
+      - name: liveness-probe
+        imagePullPolicy: Always
+        image: quay.io/k8scsi/livenessprobe:v1.1.0
+        args:
+          - --csi-address=/csi/csi.sock
+        volumeMounts:
+          - mountPath: /csi
+            name: socket-dir
       volumes:
       - name: socket-dir
         emptyDir:
