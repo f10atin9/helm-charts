@@ -162,6 +162,72 @@ entries:
   csi-neonsan:
   - apiVersion: v2
     appVersion: 1.2.1
+    created: "2021-09-08T10:23:01.031271112Z"
+    description: A Helm chart for NeonSAN CSI Driver
+    digest: 031d16b3ca79110c895c2f5e4c9cb78cefd14e17087ef811443531970f5c79ed
+    home: https://github.com/yunify/qingstor-csi
+    icon: https://s3.qingcloud.com/files/2020/01/qing-stor-neon-san.png
+    keywords:
+    - neonsan
+    - csi
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: arminzhang@yunify.com
+      name: Min Zhang
+    - email: yangzhou@yunify.com
+      name: Yang Zhou
+    name: csi-neonsan
+    sources:
+    - https://github.com/yunify/qingstor-csi
+    urls:
+    - https://charts.kubesphere.io/test/csi-neonsan-1.2.6.tgz
+    version: 1.2.6
+  - apiVersion: v2
+    appVersion: 1.2.1
+    created: "2021-09-03T02:53:27.489778628Z"
+    description: A Helm chart for NeonSAN CSI Driver
+    digest: 3494638f4d623d50be051e319e421ac77d23991ef1e4614e2aa9bb1123757a0a
+    home: https://github.com/yunify/qingstor-csi
+    icon: https://s3.qingcloud.com/files/2020/01/qing-stor-neon-san.png
+    keywords:
+    - neonsan
+    - csi
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: arminzhang@yunify.com
+      name: Min Zhang
+    - email: yangzhou@yunify.com
+      name: Yang Zhou
+    name: csi-neonsan
+    sources:
+    - https://github.com/yunify/qingstor-csi
+    urls:
+    - https://charts.kubesphere.io/test/csi-neonsan-1.2.5.tgz
+    version: 1.2.5
+  - apiVersion: v2
+    appVersion: 1.2.1
+    created: "2021-08-09T14:53:28.55047316Z"
+    description: A Helm chart for NeonSAN CSI Driver
+    digest: 4c2ea24074d1bee38fa418eb83d364c0e8fe248631ecadd23c3ce10a49d47901
+    home: https://github.com/yunify/qingstor-csi
+    icon: https://s3.qingcloud.com/files/2020/01/qing-stor-neon-san.png
+    keywords:
+    - neonsan
+    - csi
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: arminzhang@yunify.com
+      name: Min Zhang
+    - email: yangzhou@yunify.com
+      name: Yang Zhou
+    name: csi-neonsan
+    sources:
+    - https://github.com/yunify/qingstor-csi
+    urls:
+    - https://charts.kubesphere.io/test/csi-neonsan-1.2.4.tgz
+    version: 1.2.4
+  - apiVersion: v2
+    appVersion: 1.2.1
     created: "2020-12-17T09:12:10.605297423Z"
     description: A Helm chart for NeonSAN CSI Driver
     digest: 47c62dce45d3906db8c1f7616e80b41eb94b164ffc682b3f21dc40eaf8237b2a
@@ -279,6 +345,244 @@ entries:
     - https://charts.kubesphere.io/test/csi-neonsan-1.2.0-rc1.tgz
     version: 1.2.0-rc1
   csi-qingcloud:
+  - apiVersion: v2
+    appVersion: 1.3.0
+    created: "2021-11-25T06:01:27.335164502Z"
+    description: A Helm chart for Qingcloud CSI Driver
+    digest: bbf1db942448427a1559932f5fe50190027c1ad85ad0bb3d8c70f36195407d31
+    home: https://github.com/yunify/qingcloud-csi
+    icon: https://s3.qingcloud.com/static/assets/images/icons/common/nav_logo_white.svg?v=1510299508
+    keywords:
+    - qingcloud
+    - csi
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: stoneshi@yunify.com
+      name: Yonghong Shi
+    - email: zheng1@yunify.com
+      name: Zhengyi Lai
+    - email: yangzhou@yunify.com
+      name: Yang Zhou
+    name: csi-qingcloud
+    sources:
+    - https://github.com/yunify/qingcloud-csi
+    urls:
+    - https://charts.kubesphere.io/test/csi-qingcloud-1.3.2.tgz
+    version: 1.3.2
+  - apiVersion: v2
+    appVersion: 1.3.0
+    created: "2021-11-11T08:29:55.781230673Z"
+    description: A Helm chart for Qingcloud CSI Driver
+    digest: 95faf02d407dec935fb83a709b386f1049ff6c788c036c65d1c234e0b602df9a
+    home: https://github.com/yunify/qingcloud-csi
+    icon: https://s3.qingcloud.com/static/assets/images/icons/common/nav_logo_white.svg?v=1510299508
+    keywords:
+    - qingcloud
+    - csi
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: stoneshi@yunify.com
+      name: Yonghong Shi
+    - email: zheng1@yunify.com
+      name: Zhengyi Lai
+    - email: yangzhou@yunify.com
+      name: Yang Zhou
+    name: csi-qingcloud
+    sources:
+    - https://github.com/yunify/qingcloud-csi
+    urls:
+    - https://charts.kubesphere.io/test/csi-qingcloud-1.3.1.tgz
+    version: 1.3.1
+  - apiVersion: v2
+    appVersion: 1.3.0
+    created: "2021-10-29T08:58:28.655791278Z"
+    description: A Helm chart for Qingcloud CSI Driver
+    digest: 9eea97f5feb5e3d46354626df2607df2cab15980ba3397a7f583dd90ccdda576
+    home: https://github.com/yunify/qingcloud-csi
+    icon: https://s3.qingcloud.com/static/assets/images/icons/common/nav_logo_white.svg?v=1510299508
+    keywords:
+    - qingcloud
+    - csi
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: stoneshi@yunify.com
+      name: Yonghong Shi
+    - email: zheng1@yunify.com
+      name: Zhengyi Lai
+    - email: yangzhou@yunify.com
+      name: Yang Zhou
+    name: csi-qingcloud
+    sources:
+    - https://github.com/yunify/qingcloud-csi
+    urls:
+    - https://charts.kubesphere.io/test/csi-qingcloud-1.3.0.tgz
+    version: 1.3.0
+  - apiVersion: v2
+    appVersion: 1.2.2
+    created: "2021-09-27T07:06:16.177934966Z"
+    description: A Helm chart for Qingcloud CSI Driver
+    digest: e3d37bfb9e5dcf67ce14bb00938ff3d730b983ef175c6eb1f8e69196cddfe64a
+    home: https://github.com/yunify/qingcloud-csi
+    icon: https://s3.qingcloud.com/static/assets/images/icons/common/nav_logo_white.svg?v=1510299508
+    keywords:
+    - qingcloud
+    - csi
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: stoneshi@yunify.com
+      name: Yonghong Shi
+    - email: zheng1@yunify.com
+      name: Zhengyi Lai
+    - email: yangzhou@yunify.com
+      name: Yang Zhou
+    name: csi-qingcloud
+    sources:
+    - https://github.com/yunify/qingcloud-csi
+    urls:
+    - https://charts.kubesphere.io/test/csi-qingcloud-1.2.14.tgz
+    version: 1.2.14
+  - apiVersion: v2
+    appVersion: 1.2.1
+    created: "2021-09-08T10:23:01.032542645Z"
+    description: A Helm chart for Qingcloud CSI Driver
+    digest: 4a4e7ef9c89455431094596bd02674085e1bc4b911702d4846be2c9fd08e21e3
+    home: https://github.com/yunify/qingcloud-csi
+    icon: https://s3.qingcloud.com/static/assets/images/icons/common/nav_logo_white.svg?v=1510299508
+    keywords:
+    - qingcloud
+    - csi
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: stoneshi@yunify.com
+      name: Yonghong Shi
+    - email: zheng1@yunify.com
+      name: Zhengyi Lai
+    - email: yangzhou@yunify.com
+      name: Yang Zhou
+    name: csi-qingcloud
+    sources:
+    - https://github.com/yunify/qingcloud-csi
+    urls:
+    - https://charts.kubesphere.io/test/csi-qingcloud-1.2.13.tgz
+    version: 1.2.13
+  - apiVersion: v2
+    appVersion: 1.2.1
+    created: "2021-09-03T02:53:27.490575789Z"
+    description: A Helm chart for Qingcloud CSI Driver
+    digest: 0c824e7047384ff57efd32947921867759199e36e65c3ad8ed5812913f83a8ce
+    home: https://github.com/yunify/qingcloud-csi
+    icon: https://s3.qingcloud.com/static/assets/images/icons/common/nav_logo_white.svg?v=1510299508
+    keywords:
+    - qingcloud
+    - csi
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: stoneshi@yunify.com
+      name: Yonghong Shi
+    - email: zheng1@yunify.com
+      name: Zhengyi Lai
+    - email: yangzhou@yunify.com
+      name: Yang Zhou
+    name: csi-qingcloud
+    sources:
+    - https://github.com/yunify/qingcloud-csi
+    urls:
+    - https://charts.kubesphere.io/test/csi-qingcloud-1.2.12.tgz
+    version: 1.2.12
+  - apiVersion: v2
+    appVersion: 1.2.1
+    created: "2021-08-09T14:53:28.551325867Z"
+    description: A Helm chart for Qingcloud CSI Driver
+    digest: 7e293ca4f53b56a7c9cfc50db387c60488aea6ce6c007cbabf7c19111dee92fd
+    home: https://github.com/yunify/qingcloud-csi
+    icon: https://s3.qingcloud.com/static/assets/images/icons/common/nav_logo_white.svg?v=1510299508
+    keywords:
+    - qingcloud
+    - csi
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: stoneshi@yunify.com
+      name: Yonghong Shi
+    - email: zheng1@yunify.com
+      name: Zhengyi Lai
+    - email: yangzhou@yunify.com
+      name: Yang Zhou
+    name: csi-qingcloud
+    sources:
+    - https://github.com/yunify/qingcloud-csi
+    urls:
+    - https://charts.kubesphere.io/test/csi-qingcloud-1.2.11.tgz
+    version: 1.2.11
+  - apiVersion: v2
+    appVersion: 1.2.1
+    created: "2021-07-20T08:25:02.184254351Z"
+    description: A Helm chart for Qingcloud CSI Driver
+    digest: aa5b4c1187327d51a5cb32566f1b8379590b6e2f53aa0299f270cfcbbdbf4fbf
+    home: https://github.com/yunify/qingcloud-csi
+    icon: https://s3.qingcloud.com/static/assets/images/icons/common/nav_logo_white.svg?v=1510299508
+    keywords:
+    - qingcloud
+    - csi
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: stoneshi@yunify.com
+      name: Yonghong Shi
+    - email: zheng1@yunify.com
+      name: Zhengyi Lai
+    - email: yangzhou@yunify.com
+      name: Yang Zhou
+    name: csi-qingcloud
+    sources:
+    - https://github.com/yunify/qingcloud-csi
+    urls:
+    - https://charts.kubesphere.io/test/csi-qingcloud-1.2.10.tgz
+    version: 1.2.10
+  - apiVersion: v2
+    appVersion: 1.2.1
+    created: "2021-07-15T15:28:52.50530225Z"
+    description: A Helm chart for Qingcloud CSI Driver
+    digest: 9af13c60cec5514f565bc49c8f67b4ea5da69b9bc9cab377ef75faa454550189
+    home: https://github.com/yunify/qingcloud-csi
+    icon: https://s3.qingcloud.com/static/assets/images/icons/common/nav_logo_white.svg?v=1510299508
+    keywords:
+    - qingcloud
+    - csi
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: stoneshi@yunify.com
+      name: Yonghong Shi
+    - email: zheng1@yunify.com
+      name: Zhengyi Lai
+    - email: yangzhou@yunify.com
+      name: Yang Zhou
+    name: csi-qingcloud
+    sources:
+    - https://github.com/yunify/qingcloud-csi
+    urls:
+    - https://charts.kubesphere.io/test/csi-qingcloud-1.2.9.tgz
+    version: 1.2.9
+  - apiVersion: v2
+    appVersion: 1.2.1
+    created: "2021-07-08T09:21:42.153047989Z"
+    description: A Helm chart for Qingcloud CSI Driver
+    digest: 9be3969bd14ea73ae92a7692071d871a256ff031d25b988b6746cd478594e0eb
+    home: https://github.com/yunify/qingcloud-csi
+    icon: https://s3.qingcloud.com/static/assets/images/icons/common/nav_logo_white.svg?v=1510299508
+    keywords:
+    - qingcloud
+    - csi
+    kubeVersion: '>=1.14.0-0'
+    maintainers:
+    - email: stoneshi@yunify.com
+      name: Yonghong Shi
+    - email: zheng1@yunify.com
+      name: Zhengyi Lai
+    name: csi-qingcloud
+    sources:
+    - https://github.com/yunify/qingcloud-csi
+    urls:
+    - https://charts.kubesphere.io/test/csi-qingcloud-1.2.8.tgz
+    version: 1.2.8
   - apiVersion: v2
     appVersion: 1.2.1
     created: "2020-12-17T09:12:10.605875266Z"
@@ -520,6 +824,21 @@ entries:
     version: 0.1.0
   ks-installer:
   - apiVersion: v2
+    appVersion: 3.2.0
+    created: "2021-11-25T05:59:15.973620678Z"
+    description: The helm chart of KubeSphere, supports installing KubeSphere on existing
+      Kubernetes.
+    digest: 28c55adbdc96d64029b98b6223a045787882b12ef25b6d178f365b93277bb3be
+    icon: https://kubesphere.io/static/logo.16097928.svg
+    keywords:
+    - kubesphere
+    - installer
+    name: ks-installer
+    type: application
+    urls:
+    - https://charts.kubesphere.io/test/ks-installer-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     appVersion: 3.1.0
     created: "2021-06-08T05:57:07.026289635Z"
     description: The helm chart of KubeSphere, supports installing KubeSphere on existing
@@ -630,6 +949,40 @@ entries:
     urls:
     - https://charts.kubesphere.io/test/metersphere-chart-1.0.0.tgz
     version: 1.0.0
+  minio-gateway:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2021-08-24T14:54:38.848986098Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: This chart is made based on bitnami/minio chart version 7.1.7 app
+      version 2021.6.17. The major difference is this chart is using official minio
+      image and the gateway supports external etcd as data store.
+    digest: c6d57bba929ba33c12cdc4a057956457dca0f854ef074aab65f76e15d80f7f18
+    home: https://github.com/kubesphere/helm-charts
+    icon: https://bitnami.com/assets/stacks/minio/img/minio-stack-220x234.png
+    keywords:
+    - minio
+    - gateway
+    - storage
+    - object-storage
+    - s3
+    - cluster
+    maintainers:
+    - email: stoneshi@yunify.com
+      name: Yonghong Shi
+    name: minio-gateway
+    sources:
+    - https://min.io
+    urls:
+    - https://charts.kubesphere.io/test/minio-gateway-0.1.0.tgz
+    version: 0.1.0
   mongodb:
   - annotations:
       app.kubesphere.io/category: Database & Cache
@@ -1388,6 +1741,26 @@ entries:
     version: 0.6.0
   snapshot-controller:
   - apiVersion: v2
+    appVersion: 4.0.0
+    created: "2021-07-09T06:12:25.098901951Z"
+    description: A Helm chart for snapshot-controller
+    digest: f45018a82d5d683d3200309083267969250feba67bfa0d5e5109a65a1b7acfa7
+    home: https://github.com/kubernetes-csi/external-snapshotter
+    keywords:
+    - snapshot
+    - controller
+    - csi
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: yangzhou@yunify.com
+      name: Yang Zhou
+    name: snapshot-controller
+    sources:
+    - https://github.com/kubesphere/helm-charts
+    urls:
+    - https://charts.kubesphere.io/test/snapshot-controller-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 2.1.1
     created: "2020-07-07T13:36:53.991745574Z"
     description: A Helm chart for snapshot-controller
@@ -1445,4 +1818,4 @@ entries:
     urls:
     - https://charts.kubesphere.io/test/xenondb-1.0.0.tgz
     version: 1.0.0
-generated: "2021-06-29T08:28:11.91645015Z"
+generated: "2021-11-25T06:01:27.334127311Z"
